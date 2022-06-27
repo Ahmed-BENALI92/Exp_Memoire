@@ -47,7 +47,7 @@ async def main():
 #j'ouvre le fichier
 data_dict = openFichier()
 timingPause = 600
-projetNumber = 0
+projetNumber = 4
 #Maintenant qu'on posséde nos donnée dans une varible
 #Nous devons injecter l'url de notre repositories dans une autre variable
 urlclone = data_dict["items"][projetNumber]["clone_url"]
